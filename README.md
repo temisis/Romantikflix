@@ -1,2 +1,2 @@
 # recriar-Netflix
- Recreate a Netflix page with alterations -Exercise
+ Recreating a Netflix page with some changes as an exercise of my abilities with html and css.

@@ -1,6 +1,7 @@
 :root {
     --vermelho: #e50914;
     --preto: #141414;
+    --rosa: rgb(243, 174, 174);
 }
 
 *{
@@ -36,5 +37,5 @@ header nav a {
 }
 
 header nav a:hover{
-    color: rgb(243, 174, 174);
+    color: var(--rosa)
 }

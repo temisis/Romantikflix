@@ -59,10 +59,35 @@ header nav a:hover{
 }
 
 .filme-principal .descricao {
+    margin-top: 10px;
     margin-bottom: 40px;
     width: 430px;
 }
 
 .titulo{
     font-size: 40px;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-top: 5%;
+}
+
+.botao {
+    background-color: rgba(0,0,0,50%);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 10px;
+
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.botao:hover{
+    background-color: white;
+    color: #141414;
+}
+
+.botao i {
+    margin-right: 8px;
 }

@@ -10,9 +10,12 @@
     box-sizing: border-box;
 }
 
+/*elementos base*/
+
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -25,7 +28,7 @@ header .container {
 header .logo {
     color: var(--vermelho);
     font-family: Courgette;
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 10px;
 }
 
@@ -38,4 +41,28 @@ header nav a {
 
 header nav a:hover{
     color: var(--rosa)
+}
+
+/*filme principal*/
+
+.filme-principal {
+    font-size: 18px;
+    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50) 100%), url('../img/Bridgerton-netflix-first-poster.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+    width: 430px;
+}
+
+.titulo{
+    font-size: 40px;
 }

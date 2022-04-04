@@ -55,13 +55,13 @@ header nav a:hover{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: flex-start;
 }
 
 .filme-principal .descricao {
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     max-width: 40%;
     width: fit-content;
     background-color: rgba(0,0,0,50%);
@@ -81,15 +81,13 @@ header nav a:hover{
     color: white;
 
     padding: 10px 20px;
-    margin-right: 10px;
-    margin-top: 5%;
-    margin-left: 10px;
+    margin-top: 2%;
 
     font-size: 12px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.15s;
-
+    margin-left: 10px;
 }
 
 .botao:hover{
@@ -108,4 +106,7 @@ header nav a:hover{
 .box-filme {
     height: 10%;
     width: 10%;
+}
+.carrosel-filmes {
+    margin-top: 1%;
 }

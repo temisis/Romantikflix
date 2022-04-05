@@ -1,7 +1,7 @@
 :root {
-    --vermelho: #e50914;
+    --vermelho: #da1721;
     --preto: #141414;
-    --rosa: rgb(243, 174, 174);
+    --rosa: #e11584;
 }
 
 *{
@@ -13,7 +13,7 @@
 /*elementos base*/
 
 body {
-    background: var(--preto);
+    background: #FDA4BA;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
@@ -34,20 +34,22 @@ header .logo {
 
 header nav a {
     text-decoration: none;
-    color: #aaa;
+    color: var(--preto);
     margin-right: 10px;
 
 }
 
 header nav a:hover{
-    color: var(--rosa)
+    color: var(--rosa);
+    background-color:#141414;
+    padding: 5px;
 }
 
 /*filme principal*/
 
 .filme-principal {
     font-size: 18px;
-    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50) 100%), url('../img/Bridgerton-netflix-first-poster.jpg');
+    background: linear-gradient(rgba(253, 253, 253, 0.5), rgba(0, 0, 0,.50) 100%), url('../img/Bridgerton-netflix-first-poster.jpg');
 
     height: 400px;
     background-size: cover;
@@ -73,6 +75,7 @@ header nav a:hover{
     font-size: 32px;
     font-family: 'Cinzel Decorative', cursive;
     margin-top: 5%;
+    color: var(--rosa);
 }
 
 .botao {
@@ -97,6 +100,11 @@ header nav a:hover{
 
 .botao i {
     margin-right: 8px;
+}
+
+.botao a:visited {
+    text-decoration: none;
+    color: var(--rosa);
 }
 
 .container {

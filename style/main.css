@@ -86,25 +86,32 @@ header nav a:hover{
     padding: 10px 20px;
     margin-top: 2%;
 
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.15s;
     margin-left: 10px;
+    text-decoration: none;
+    
 }
 
 .botao:hover{
     background-color: white;
     color: #141414;
+    text-decoration: none;
 }
 
 .botao i {
     margin-right: 8px;
 }
 
+a:link{
+    text-decoration: none;
+}
+
 .botao a:visited {
     text-decoration: none;
-    color: var(--rosa);
+    color: #e11584;
 }
 
 .container {

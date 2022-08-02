@@ -1,6 +1,6 @@
 # Romantikflix
 
-The iea is to create a page similar to Netflix, as an exercise of my abilities with html and css.
+The idea is to create a page similar to Netflix, as an exercise of my abilities with html and css.
 
  I decided to focus on making a "Romantikflix" a service dedicated to movies, series and animations that emphasize romantic relationships.
 
